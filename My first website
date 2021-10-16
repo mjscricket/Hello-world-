@@ -1,8 +1,12 @@
 <html>
   <h1>Hello world! </h1>
-  <button onclick="myFunction">try it</button>
+  <button onclick="myFunction()">try it</button>
   <p id="trile"></p>
   <script type="text/javascript">
+  function myFunction() {
+  var person = prompt("What is your name");
+  document.getElementById("trile").innerHTML = "Hello " + person +" welcome to my website"
+  }
   
   </script>
   </html>
