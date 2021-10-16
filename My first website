@@ -1,3 +1,8 @@
 <html>
-  <h1>MJS Crickket </h1>
+  <h1>Hello world! </h1>
+  <button onclick="myFunction">try it</button>
+  <p id="trile"></p>
+  <script type="text/javascript">
+  
+  </script>
   </html>
